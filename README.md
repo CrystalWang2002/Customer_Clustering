@@ -34,11 +34,9 @@ I picked eight principal component while maintaining 80% explanatory power for t
 ![](clustering%20slides_page-0007.jpg)
 
 **Four different models:**
+- K-means
+  
 
-![](clustering%20slides_page-0009.jpg)
-![](clustering%20slides_page-00010.jpg)
-![](clustering%20slides_page-00011.jpg)
-![](clustering%20slides_page-00012.jpg)
 
 **Final selection and Cluster distribution:**
 
