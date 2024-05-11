@@ -27,13 +27,41 @@ Delete NULL value, change the data types, drop outliers, do feature engineering 
 
 I picked eight principal component while maintaining 80% explanatory power for the variance of the variables.
 
-## 3. Clustering
+## 3. Clustering Model
 
 **Model introuction:**
 
-![](clustering%20slides_page-0005.jpg)
+![](clustering%20slides_page-0007.jpg)
 
+**Four different models:**
 
+![](clustering%20slides_page-0009.jpg)
+![](clustering%20slides_page-00010.jpg)
+![](clustering%20slides_page-00011.jpg)
+![](clustering%20slides_page-00012.jpg)
+
+**Final selection and Cluster distribution:**
+
+![](clustering%20slides_page-00013.jpg)
+
+## 4. Exploratory Data Analysis
+
+![](clustering%20slides_page-00015.jpg)
+![](clustering%20slides_page-00016.jpg)
+![](clustering%20slides_page-00017.jpg)
+![](clustering%20slides_page-00018.jpg)
+![](clustering%20slides_page-00019.jpg)
+
+## 5. Customer Profile
+
+![](clustering%20slides_page-00021.jpg)
+![](clustering%20slides_page-00022.jpg)
+
+## 6.Market strategy for different clusters
+
+![](clustering%20slides_page-00023.jpg)
+![](clustering%20slides_page-00024.jpg)
+![](clustering%20slides_page-00025.jpg)
 
 
 
