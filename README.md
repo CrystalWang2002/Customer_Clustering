@@ -27,7 +27,6 @@ Delete NULL value, change the data types, drop outliers, do feature engineering 
 
 I picked eight principal component while maintaining 80% explanatory power for the variance of the variables.
 
-![PCA](https://github.com/CrystalWang2002/Customer_Clustering/blob/main/Picture2.png)
 ## 3. Clustering
 
 **Model introuction:**
