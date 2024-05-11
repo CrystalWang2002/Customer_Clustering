@@ -31,6 +31,7 @@ I picked eight principal component while maintaining 80% explanatory power for t
 
 **Model introuction:**
 
+![](clustering%20slides_page-0005.jpg)
 
 
 
