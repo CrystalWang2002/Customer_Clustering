@@ -71,21 +71,55 @@ I picked eight principal component while maintaining 80% explanatory power for t
 
 **Final selection and Cluster distribution:**
 - Select Agglomerative Clustering finally
-<img src="10.png" style="width:500px;height:300px;">
+<img src="10.jpg" style="width:500px;height:300px;">
 
 - The clusters seem to be fairly distributed
 <img src="11.png" style="width:500px;height:300px;">
 
 ## 4. Exploratory Data Analysis
 
+**Customer Features**
+- Kernel Density Estimate plot
+- Final analysis shown in profile part
+<img src="12.png" style="width:500px;height:300px;">
 
+- high income customers have higher total spent.
+- Total spent: Cluster2 > Cluster 1 > Cluster 0
+<img src="13.png" style="width:500px;height:300px;">
+
+- High-income customers do not necessarily make more frequent purchases,may because they prefer high-value goods
+<img src="14.png" style="width:500px;height:300px;">
+
+**Product Preference**
+- Total purchase number: Cluster2 > Cluster 1> Cluster 0
+- Cluster 2 spends more than the other two groups on most product categories, especially on “Meat” and “Wine” products.
+<img src="15.png" style="width:500px;height:300px;">
+
+**Purchase Channel**
+- Cluster 1 and Cluster2 is active across all channel. 
+- Web shopping: Cluster 1 > Cluster 2, Catalog shopping: Cluster 2 > Cluster1.
+- Cluster 0 makes relatively few purchases across all channels, which may indicate that they buy less frequently overall.
+<div style="display:flex;">
+    <img src="16.png" alt="图片1" style="width:50%;">
+    <img src="17.png" alt="图片2" style="width:50%;">
+</div>
+<img src="18.png" style="width:500px;height:300px;">
+
+**Customer Activation**
+- The majority of customers tended not to take up any promotions, cluster2 participated in a relatively high number of promotions
+<img src="19.png" style="width:500px;height:300px;">
+
+- Cluster2 has the lowest website activity, the other two clusters are similar
+<img src="20.png" style="width:500px;height:300px;">
 
 ## 5. Customer Profile
-
-
+<img src="21.png" style="width:500px;height:300px;">
+<img src="22.png" style="width:500px;height:300px;">
 
 ## 6.Market strategy for different clusters
-
+<img src="23.png" style="width:500px;height:300px;">
+<img src="24.png" style="width:500px;height:300px;">
+<img src="25.png" style="width:500px;height:300px;">
 
 
 
