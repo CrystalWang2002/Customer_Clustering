@@ -1,4 +1,4 @@
-![image](https://github.com/CrystalWang2002/Customer_Clustering/assets/147997879/bf48f1fe-f6b5-4d32-919a-043bb0c1c131)# Customer Segmentation: Clustering
+# Customer Segmentation: Clustering
 Using clustering model to identify different customer groups for marketing strategy customization.
 
 ## 1. Introduction
