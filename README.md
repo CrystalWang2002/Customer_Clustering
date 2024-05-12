@@ -30,7 +30,6 @@ I picked eight principal component while maintaining 80% explanatory power for t
 ## 3. Clustering Model
 
 **Model introuction:**
-
 ![](1.jpg)
 
 **Four different models:**
