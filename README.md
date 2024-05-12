@@ -1,4 +1,4 @@
-# Customer Segmentation: Clustering
+![image](https://github.com/CrystalWang2002/Customer_Clustering/assets/147997879/bf48f1fe-f6b5-4d32-919a-043bb0c1c131)# Customer Segmentation: Clustering
 Using clustering model to identify different customer groups for marketing strategy customization.
 
 ## 1. Introduction
@@ -34,32 +34,50 @@ I picked eight principal component while maintaining 80% explanatory power for t
 ![](1.jpg)
 
 **Four different models:**
-- K-means
-  
 
+**K-means**
+- Choose cluster number: Calculate distortion score and use Elbow rule to select clusters = 4.
+![](2.jpg)
+- Calculate average silhouette score = 0.1911
+![](3.jpg)
+
+**Agglomerative Clustering**
+- Choose cluster number: use Dendrogram to find clusters with the longest merge distance, and finally set clusters = 3.
+![](4.jpg)
+- Calculate average silhouette score = 0.2507
+![](5.jpg)
+
+**Spectral Clustering**
+- Choose cluster number: calculate eigen gaps and select cluster number with highest gap size, and finally set clusters = 3.
+![](6.jpg)
+- Calculate average silhouette score = 0.1999
+![](7.jpg)
+
+**DBSCAN**
+- No need to set cluster number in advance, calculate average silhouette score = 0.2487.
+![](8.jpg)
+- “d_cluster” is the cluster label through DBSCAN
+- “-1” label means noisy point
+- Distribution of cluster is markedly uneven, and many data points are clustered as noisy point --> Not a suitable model
+![](9.jpg)
 
 **Final selection and Cluster distribution:**
-
-![](clustering%20slides_page-00013.jpg)
+- Select Agglomerative Clustering finally
+![](10.jpg)
+- The clusters seem to be fairly distributed
+![](11.jpg)
 
 ## 4. Exploratory Data Analysis
 
-![](clustering%20slides_page-00015.jpg)
-![](clustering%20slides_page-00016.jpg)
-![](clustering%20slides_page-00017.jpg)
-![](clustering%20slides_page-00018.jpg)
-![](clustering%20slides_page-00019.jpg)
+
 
 ## 5. Customer Profile
 
-![](clustering%20slides_page-00021.jpg)
-![](clustering%20slides_page-00022.jpg)
+
 
 ## 6.Market strategy for different clusters
 
-![](clustering%20slides_page-00023.jpg)
-![](clustering%20slides_page-00024.jpg)
-![](clustering%20slides_page-00025.jpg)
+
 
 
 
