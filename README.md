@@ -24,7 +24,7 @@ This dataset comes from Kaggle. It contains 1000+ data items and 27 variables. T
 Delete NULL value, change the data types, drop outliers, do feature engineering and Scale the feature using the standard scaler.
 
 **Principal Component Analysis:**
-![](0.jpg)
+![](0.png)
 I picked eight principal component while maintaining 80% explanatory power for the variance of the variables.
 
 ## 3. Clustering Model
@@ -36,35 +36,35 @@ I picked eight principal component while maintaining 80% explanatory power for t
 
 **K-means**
 - Choose cluster number: Calculate distortion score and use Elbow rule to select clusters = 4.
-![](2.jpg)
+![](2.png)
 - Calculate average silhouette score = 0.1911
-![](3.jpg)
+![](3.png)
 
 **Agglomerative Clustering**
 - Choose cluster number: use Dendrogram to find clusters with the longest merge distance, and finally set clusters = 3.
-![](4.jpg)
+![](4.png)
 - Calculate average silhouette score = 0.2507
-![](5.jpg)
+![](5.png)
 
 **Spectral Clustering**
 - Choose cluster number: calculate eigen gaps and select cluster number with highest gap size, and finally set clusters = 3.
-![](6.jpg)
+![](6.png)
 - Calculate average silhouette score = 0.1999
-![](7.jpg)
+![](7.png)
 
 **DBSCAN**
 - No need to set cluster number in advance, calculate average silhouette score = 0.2487.
-![](8.jpg)
+![](8.png)
 - “d_cluster” is the cluster label through DBSCAN
 - “-1” label means noisy point
 - Distribution of cluster is markedly uneven, and many data points are clustered as noisy point --> Not a suitable model
-![](9.jpg)
+![](9.png)
 
 **Final selection and Cluster distribution:**
 - Select Agglomerative Clustering finally
-![](10.jpg)
+![](10.png)
 - The clusters seem to be fairly distributed
-![](11.jpg)
+![](11.png)
 
 ## 4. Exploratory Data Analysis
 
