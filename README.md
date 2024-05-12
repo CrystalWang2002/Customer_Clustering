@@ -24,7 +24,7 @@ This dataset comes from Kaggle. It contains 1000+ data items and 27 variables. T
 Delete NULL value, change the data types, drop outliers, do feature engineering and Scale the feature using the standard scaler.
 
 **Principal Component Analysis:**
-
+![](0.jpg)
 I picked eight principal component while maintaining 80% explanatory power for the variance of the variables.
 
 ## 3. Clustering Model
