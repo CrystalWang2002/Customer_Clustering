@@ -102,8 +102,8 @@ I picked eight principal component while maintaining 80% explanatory power for t
 <div style="display:flex;">
     <img src="16.png" alt="图片1" style="width:50%;">
     <img src="17.png" alt="图片2" style="width:50%;">
+    <img src="18.png" alt="图片2" style="width:50%;">
 </div>
-<img src="18.png" style="width:500px;height:300px;">
 
 **Customer Activation**
 - The majority of customers tended not to take up any promotions, cluster2 participated in a relatively high number of promotions
@@ -113,13 +113,16 @@ I picked eight principal component while maintaining 80% explanatory power for t
 <img src="20.png" style="width:500px;height:300px;">
 
 ## 5. Customer Profile
-<img src="21.png" style="width:500px;height:300px;">
-<img src="22.png" style="width:500px;height:300px;">
+- Different characteristics
+<img src="21.jpg" >
+
+- Common characteristics
+<img src="22.jpg" style="width:500px;height:400px;" >
 
 ## 6.Market strategy for different clusters
-<img src="23.png" style="width:500px;height:300px;">
-<img src="24.png" style="width:500px;height:300px;">
-<img src="25.png" style="width:500px;height:300px;">
+<img src="23.jpg">
+<img src="24.jpg">
+<img src="25.jpg">
 
 
 
