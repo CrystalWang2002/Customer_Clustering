@@ -25,7 +25,7 @@ Delete NULL value, change the data types, drop outliers, do feature engineering 
 
 **Principal Component Analysis:**
 
-<img src="0.png" style="width:500px;height:300px;">
+<img src="images/0.png" style="width:500px;height:300px;">
 
 I picked eight principal component while maintaining 80% explanatory power for the variance of the variables.
 
@@ -33,67 +33,67 @@ I picked eight principal component while maintaining 80% explanatory power for t
 
 **Model introuction:**
 
-<img src="1.jpg" style="width:1000px;height:300px;">
+<img src="images/1.jpg" style="width:1000px;height:300px;">
 
 **Four different models:**
 
 **K-means**
 - Choose cluster number: Calculate distortion score and use Elbow rule to select clusters = 4.
 
-<img src="2.png" style="width:500px;height:300px;">
+<img src="images/2.png" style="width:500px;height:300px;">
 
 - Calculate average silhouette score = 0.1911.
 
-<img src="3.png" style="width:500px;height:300px;">
+<img src="images/3.png" style="width:500px;height:300px;">
 
 **Agglomerative Clustering**
 - Choose cluster number: use Dendrogram to find clusters with the longest merge distance, and finally set clusters = 3.
-<img src="4.png" style="width:500px;height:300px;">
+<img src="images/4.png" style="width:500px;height:300px;">
 
 - Calculate average silhouette score = 0.2507
-<img src="5.png" style="width:500px;height:300px;">
+<img src="images/5.png" style="width:500px;height:300px;">
 
 **Spectral Clustering**
 - Choose cluster number: calculate eigen gaps and select cluster number with highest gap size, and finally set clusters = 3.
-<img src="6.png" style="width:800px;height:300px;">
+<img src="images/6.png" style="width:800px;height:300px;">
 
 - Calculate average silhouette score = 0.1999
-<img src="7.png" style="width:500px;height:300px;">
+<img src="images/7.png" style="width:500px;height:300px;">
 
 **DBSCAN**
 - No need to set cluster number in advance, calculate average silhouette score = 0.2487.
-<img src="8.png" style="width:500px;height:300px;">
+<img src="images/8.png" style="width:500px;height:300px;">
 
 - “d_cluster” is the cluster label through DBSCAN
 - “-1” label means noisy point
 - Distribution of cluster is markedly uneven, and many data points are clustered as noisy point --> Not a suitable model
-<img src="9.png" style="width:500px;height:300px;">
+<img src="images/9.png" style="width:500px;height:300px;">
 
 **Final selection and Cluster distribution:**
 - Select Agglomerative Clustering finally
-<img src="10.jpg" style="width:500px;height:300px;">
+<img src="images/10.jpg" style="width:500px;height:300px;">
 
 - The clusters seem to be fairly distributed
-<img src="11.png" style="width:500px;height:300px;">
+<img src="images/11.png" style="width:500px;height:300px;">
 
 ## 4. Exploratory Data Analysis
 
 **Customer Features**
 - Kernel Density Estimate plot
 - Final analysis shown in profile part
-<img src="12.png" style="width:500px;height:300px;">
+<img src="images/12.png" style="width:500px;height:300px;">
 
 - high income customers have higher total spent.
 - Total spent: Cluster2 > Cluster 1 > Cluster 0
-<img src="13.png" style="width:500px;height:300px;">
+<img src="images/13.png" style="width:500px;height:300px;">
 
 - High-income customers do not necessarily make more frequent purchases,may because they prefer high-value goods
-<img src="14.png" style="width:500px;height:300px;">
+<img src="images/14.png" style="width:500px;height:300px;">
 
 **Product Preference**
 - Total purchase number: Cluster2 > Cluster 1> Cluster 0
 - Cluster 2 spends more than the other two groups on most product categories, especially on “Meat” and “Wine” products.
-<img src="15.png" style="width:500px;height:300px;">
+<img src="images/15.png" style="width:500px;height:300px;">
 
 **Purchase Channel**
 - Cluster 1 and Cluster2 is active across all channel. 
